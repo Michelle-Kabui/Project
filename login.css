@@ -1,0 +1,101 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+.image{
+position:absolute;
+left:20px;
+top:15px;
+width: 200px;
+height: 100.0px;
+font-family: 'Apple Chancery';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+color: #000000;
+}
+.special{
+position:absolute;
+width: 40.42217329833943px;
+height: 14.00000000000006px;
+left:750px;
+top: 10px;
+font-family: 'Apple Chancery';
+font-size: 60.0px;
+font-weight: 400;
+text-decoration: underline;
+color: #333333;
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+border-bottom-left-radius: 4px;
+border-bottom-right-radius: 4px;
+}
+
+.logform{
+  position:absolute;
+  width:650px;
+  height:650px;
+  top: 200px;
+  left:550px;
+  border: 1px solid black;
+  padding-left:15px;
+  border-radius:10px;
+}
+.logform h1{
+  font-size:40px;
+  text-align:center;
+  text-transform:uppercase;
+  margin:30px;
+  text-decoration:underline;
+}
+.logform p{
+  font-size:25px;
+  margin:20px;
+}
+.logform input{
+  font-size:16px;
+  padding:15px 10px;
+  color: inherit;
+  border-radius:10px;
+  border-color: black;
+  width:400px;
+}
+.logform button{
+position:absolute;
+width: 500.0px;
+height: 43.0px;
+font-family: OpenSans-Regular;
+font-size: 16px;
+text-align: center;
+color: #FFFFFF;
+background-color: grey;
+border-radius:5px;
+top:370px;
+padding:10px;
+left: 100px;
+box-shadow:0 0 4px rgba(0,0,0,0.3);
+-webkit-transition-property:transform;
+ transition-property:transform;
+ -webkit-transition-duration:0.5s;
+ transition-duration:0.5s;
+
+}
+.logform button:hover,input:focus{
+  -webkit-transform:scale(1.05);
+  transform:scale(1.05);
+
+}
+
+.a{
+  position:absolute;
+  top:350px;
+  left:100px;
+}
+.reg{
+  position:absolute;
+  left:200px;
+  top:500px;
+  font-size: 16px;
+}

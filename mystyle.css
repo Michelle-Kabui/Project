@@ -1,0 +1,448 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+body{
+  background-image: url("istockphoto-1322669600-170667a.jpg");
+}
+.image{
+position:absolute;
+left:20px;
+top:15px;
+width: 200px;
+height: 100.0px;
+font-family: 'Apple Chancery';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+color: #000000;
+}
+.special{
+position:absolute;
+width: 40.42217329833943px;
+height: 14.00000000000006px;
+left:750px;
+top: 10px;
+font-family: 'Apple Chancery';
+font-size: 60.0px;
+font-weight: 400;
+text-decoration: underline;
+color: #333333;
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+border-bottom-left-radius: 4px;
+border-bottom-right-radius: 4px;
+}
+ ul{
+position:absolute;
+top:110px;
+left:620px;
+background-color:white;
+list-style:none;
+display: flex;
+flex-direction: row;
+}
+ nav ul li a{
+font-family: 'American Typewriter';
+font-size: 15.0px;
+text-align: center;
+color: grey;
+background-color: #FFFFFF;
+text-decoration: none;
+padding-top:10px;
+padding-left:40px;
+padding-bottom:5px;
+padding-right: 35px;
+float:right;
+}
+
+ ul li a:hover{
+   text-decoration: underline;
+   color:black
+}
+.sign a{
+  color:black;
+  padding-top:0px;
+  padding-left:0px;
+}
+.cart a{
+  color:black;
+  padding-top:0px;
+  padding-left:0px;
+}
+input[type=text] {
+  font-size: 11px;
+  color:black;
+  margin:2px;
+  height:20px;
+}
+  input.hover,input:focus{
+  border:3px solid ;
+  transform:scale(1.05);
+  -webkit-transform:scale(1.05);
+}
+.motto{
+position:absolute;
+left:600px;
+top:170px;
+width: 700px;
+height: 60.0px;
+font-family: 'Zapfino';
+font-size: 30.0px;
+font-weight: 400;
+color: #333333;
+}
+.mission{
+position:absolute;
+top:260px;
+left:500px;
+width: 1100px;
+height:60.0px;
+font-family: "OpenSans-Regular";
+font-size: 22.0px;
+color: #000000;
+}
+.call_to_action{
+position:absolute;
+top:320px;
+left:650px;
+width: 1100px;
+height: 60.0px;
+font-family: "American Typewriter";
+font-size: 22.0px;
+font-weight: 400;
+color: #333333;
+}
+.shop{
+position: absolute;
+top:370px;
+left:750px;
+width:300px;
+height: 70.0px;
+font-family: "Comic Sans M, cursive";
+font-size: 30.0px;
+font-weight: 700;
+text-align: center;
+color: black;
+background-color: "light grey";
+border-top: 0.0px solid #404040;
+border-right: 0.0px solid #404040;
+border-bottom: 0.0px solid #404040;
+border-left: 0.0px solid #404040;
+border-radius: 40px;
+-webkit-transition-property:transform;
+ transition-property:transform;
+ -webkit-transition-duration:0.5s;
+ transition-duration:0.5s;
+}
+.shop:hover,input:focus{
+  -webkit-transform:scale(1.05);
+  transform:scale(1.05);
+  border: 3px solid black;
+}
+.genders{
+  display:flex;
+}
+.male{
+position:absolute;
+width: 460.6000366210942px;
+height: 650.9236195055482px;
+left:50px;
+top:460px;
+-webkit-transition-property:transform;
+ transition-property:transform;
+ -webkit-transition-duration:0.5s;
+ transition-duration:0.5s;
+}
+.male:hover,input:focus{
+  -webkit-transform:scale(1.05);
+  transform:scale(1.05);
+
+}
+.children{
+position: absolute;
+width:460px;
+height:650px;
+left:650px;
+top:460px;
+-webkit-transition-property:transform;
+ transition-property:transform;
+ -webkit-transition-duration:0.5s;
+ transition-duration:0.5s;
+}
+.children:hover,input:focus{
+  -webkit-transform:scale(1.05);
+  transform:scale(1.05);
+
+}
+.women{
+position:absolute;
+width: 460.50000000000045px;
+height: 650.6284764194412px;
+top:460px;
+left:1250px;
+-webkit-transition-property:transform;
+ transition-property:transform;
+ -webkit-transition-duration:0.5s;
+ transition-duration:0.5s;
+}
+.women:hover,input:focus{
+  -webkit-transform:scale(1.05);
+  transform:scale(1.05);
+
+}
+.man{
+position:absolute;
+width: 399.06336652041955px;
+height: 29.0px;
+font-family: "American Typewriter";
+font-size: 22.0px;
+font-weight: 400;
+color: #000000;
+top:1120px;
+left:100px;
+-webkit-transition-property:transform;
+  transition-property:transform;
+  -webkit-transition-duration:0.5s;
+  transition-duration:0.5s;
+}
+.man:hover,input:focus{
+  -webkit-transform:scale(1.05);
+  transform:scale(1.05);
+
+}
+.kids{
+position:absolute;
+width: 263.18800354003906px;
+height: 64.0px;
+font-family: "American Typewriter";
+font-size: 24.0px;
+font-weight: 400;
+color: #000000;
+left:750px;
+top:1120px;
+-webkit-transition-property:transform;
+  transition-property:transform;
+  -webkit-transition-duration:0.5s;
+  transition-duration:0.5s;
+}
+.kids:hover,input:focus{
+  -webkit-transform:scale(1.05);
+  transform:scale(1.05);
+
+}
+.lady{
+position:absolute;
+width: 250.37202453613259px;
+height: 64.00000000000011px;
+font-family: "American Typewriter";
+font-size: 24.0px;
+font-weight: 400;
+color: #000000;
+left:1300px;
+top:1120px;
+-webkit-transition-property:transform;
+  transition-property:transform;
+  -webkit-transition-duration:0.5s;
+  transition-duration:0.5s;
+}
+.lady:hover,input:focus{
+  -webkit-transform:scale(1.05);
+  transform:scale(1.05);
+
+}
+.new {
+  position:absolute;
+  width:400px;
+  height:65px;
+  top:1210px;
+  left:700px;
+  font-family:"cursive";
+  font-size:50px;
+  font-style: italic;
+  text-decoration: underline;
+  text-align: center;
+  text-shadow: black;
+  background-color:white;
+  border-radius: 10px;
+  border-top: 1px solid;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  -webkit-transition-property:transform;
+    transition-property:transform;
+    -webkit-transition-duration:0.5s;
+    transition-duration:0.5s;
+}
+.new:hover,input:focus{
+  -webkit-transform:scale(1.05);
+  transform:scale(1.05);
+  border: 3px solid black;
+}
+.release{
+  position:absolute;
+  width:1000px;
+  height:65px;
+  font-family:"italic";
+  font-size:40px;
+  font-style: italic;
+  text-align: center;
+  text-shadow: black;
+  font-size:30px;
+  top:1310px;
+  left:400px;
+}
+.season{
+  position:absolute
+  top:500px;
+  display:flex;
+}
+
+.marvin{
+  position:absolute;
+  width:400px;
+  height:600px;
+  left:30px;
+  top:1400px;
+  -webkit-transition-property:transform;
+    transition-property:transform;
+    -webkit-transition-duration:0.5s;
+    transition-duration:0.5s;
+}
+.marvin:hover,input:focus{
+  -webkit-transform:scale(1.05);
+  transform:scale(1.05);
+
+}
+.word{
+position:absolute;
+width: 174.09999084472656px;
+height: 93.0px;
+font-family: "Zurich Caligraphic";
+font-size: 26.0px;
+font-weight: 400;
+color: #333333;
+top:1550px;
+left:500px;
+}
+.scarves{
+  position:absolute;
+  width: 410px;
+  height: 600px;
+  top:1400px;
+  left:650px;
+  -webkit-transition-property:transform;
+    transition-property:transform;
+    -webkit-transition-duration:0.5s;
+    transition-duration:0.5s;
+}
+.scarves:hover,input:focus{
+  -webkit-transform:scale(1.05);
+  transform:scale(1.05);
+
+}
+.word2{
+position:absolute;
+width: 131.1999969482422px;
+height: 79.0px;
+font-style:"Zurich Caligraphic";
+font-size: 30.0px;
+font-weight: 400;
+color: #333333;
+top:1550px;
+left:1100px;
+}
+.gloves{
+  position:absolute;
+  width:400px;
+  height:600px;
+  top:1400px;
+  left:1200px;
+  -webkit-transition-property:transform;
+    transition-property:transform;
+    -webkit-transition-duration:0.5s;
+    transition-duration:0.5s;
+}
+.gloves:hover,input:focus{
+  -webkit-transform:scale(1.05);
+  transform:scale(1.05);
+
+}
+.beanie{
+  position:absolute;
+width: 399.06336652041955px;
+height: 29.0px;
+font-family: "American Typewriter";
+font-size: 22.0px;
+font-weight: 400;
+color: #000000;
+top:2010px;
+left:100px;
+
+}
+.scarf{
+position:absolute;
+width: 263.18800354003906px;
+height: 64.0px;
+font-family: "American Typewriter";
+font-size: 24.0px;
+font-weight: 400;
+color: #000000;
+left:700px;
+top:2010px;
+}
+.coat{
+position:absolute;
+width: 250.37202453613259px;
+height: 64.00000000000011px;
+font-family: "American Typewriter";
+font-size: 24.0px;
+font-weight: 400;
+color: #000000;
+left:1250px;
+top:2010px;
+}
+.extra{
+  position:absolute;
+  display:flex;
+  top:2100px;
+  left:50px;
+  padding-bottom: 50px;
+}
+.terms{
+  position:absolute;
+  width:200px;
+  left:20px;
+}
+.account{
+  position:absolute;
+    width:200px;
+  left:200px;
+}
+.more{
+  position:absolute;
+    width:200px;
+  left:350px;
+}
+.call{
+  position:absolute;
+    width:200px;
+  left:550px;
+}
+.email{
+  position:absolute;
+    width:200px;
+    left:750px;
+}
+.facebook{
+  position:absolute;
+  width:200px;
+  left:1000px;
+}
+.instagram{
+  position:absolute;
+    width:200px;
+  left:1200px;
+}
